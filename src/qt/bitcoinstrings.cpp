@@ -20,7 +20,7 @@ QT_TRANSLATE_NOOP("patacoin-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Bitcoin Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"Patacoin Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("patacoin-core", ""
 "Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!"
 "3DES:@STRENGTH)"),
@@ -33,7 +33,7 @@ QT_TRANSLATE_NOOP("patacoin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("patacoin-core", ""
-"Cannot obtain a lock on data directory %s. Bitcoin is probably already "
+"Cannot obtain a lock on data directory %s. Patacoin is probably already "
 "running."),
 QT_TRANSLATE_NOOP("patacoin-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
@@ -74,7 +74,7 @@ QT_TRANSLATE_NOOP("patacoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("patacoin-core", ""
-"Unable to bind to %s on this computer. Bitcoin is probably already running."),
+"Unable to bind to %s on this computer. Patacoin is probably already running."),
 QT_TRANSLATE_NOOP("patacoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -"
 "proxy)"),
@@ -83,7 +83,7 @@ QT_TRANSLATE_NOOP("patacoin-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("patacoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Bitcoin will not work properly."),
+"your clock is wrong Patacoin will not work properly."),
 QT_TRANSLATE_NOOP("patacoin-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -109,8 +109,8 @@ QT_TRANSLATE_NOOP("patacoin-core", "Add a node to connect to and attempt to keep
 QT_TRANSLATE_NOOP("patacoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
 QT_TRANSLATE_NOOP("patacoin-core", "Allow JSON-RPC connections from specified IP address"),
 QT_TRANSLATE_NOOP("patacoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("patacoin-core", "Bitcoin Core Daemon"),
-QT_TRANSLATE_NOOP("patacoin-core", "Bitcoin RPC client version"),
+QT_TRANSLATE_NOOP("patacoin-core", "Patacoin Core Daemon"),
+QT_TRANSLATE_NOOP("patacoin-core", "Patacoin RPC client version"),
 QT_TRANSLATE_NOOP("patacoin-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("patacoin-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("patacoin-core", "Cannot resolve -bind address: '%s'"),
@@ -130,7 +130,7 @@ QT_TRANSLATE_NOOP("patacoin-core", "Error initializing wallet database environme
 QT_TRANSLATE_NOOP("patacoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("patacoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("patacoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("patacoin-core", "Error loading wallet.dat: Wallet requires newer version of Bitcoin"),
+QT_TRANSLATE_NOOP("patacoin-core", "Error loading wallet.dat: Wallet requires newer version of Patacoin"),
 QT_TRANSLATE_NOOP("patacoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("patacoin-core", "Error"),
 QT_TRANSLATE_NOOP("patacoin-core", "Error: Disk space is low!"),
@@ -184,9 +184,9 @@ QT_TRANSLATE_NOOP("patacoin-core", "Rebuild block chain index from current blk00
 QT_TRANSLATE_NOOP("patacoin-core", "Rescan the block chain for missing wallet transactions"),
 QT_TRANSLATE_NOOP("patacoin-core", "Rescanning..."),
 QT_TRANSLATE_NOOP("patacoin-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("patacoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("patacoin-core", "SSL options: (see the Patacoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("patacoin-core", "Select SOCKS version for -proxy (4 or 5, default: 5)"),
-QT_TRANSLATE_NOOP("patacoin-core", "Send command to Bitcoin server"),
+QT_TRANSLATE_NOOP("patacoin-core", "Send command to Patacoin server"),
 QT_TRANSLATE_NOOP("patacoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("patacoin-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("patacoin-core", "Server certificate file (default: server.cert)"),
@@ -204,7 +204,7 @@ QT_TRANSLATE_NOOP("patacoin-core", "Specify data directory"),
 QT_TRANSLATE_NOOP("patacoin-core", "Specify pid file (default: patacoind.pid)"),
 QT_TRANSLATE_NOOP("patacoin-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("patacoin-core", "Specify your own public address"),
-QT_TRANSLATE_NOOP("patacoin-core", "Start Bitcoin server"),
+QT_TRANSLATE_NOOP("patacoin-core", "Start Patacoin server"),
 QT_TRANSLATE_NOOP("patacoin-core", "System error: "),
 QT_TRANSLATE_NOOP("patacoin-core", "This help message"),
 QT_TRANSLATE_NOOP("patacoin-core", "This is intended for regression testing tools and app development."),
@@ -228,7 +228,7 @@ QT_TRANSLATE_NOOP("patacoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("patacoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("patacoin-core", "Wait for RPC server to start"),
 QT_TRANSLATE_NOOP("patacoin-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("patacoin-core", "Wallet needed to be rewritten: restart Bitcoin to complete"),
+QT_TRANSLATE_NOOP("patacoin-core", "Wallet needed to be rewritten: restart Patacoin to complete"),
 QT_TRANSLATE_NOOP("patacoin-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("patacoin-core", "Warning"),
 QT_TRANSLATE_NOOP("patacoin-core", "Warning: Deprecated argument -debugnet ignored, use -debug=net"),

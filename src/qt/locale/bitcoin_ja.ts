@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>Bitcoin について</translation>
+        <source>About Patacoin</source>
+        <translation>Patacoin について</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; バージョン</translation>
+        <source>&lt;b&gt;Patacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Patacoin&lt;/b&gt; バージョン</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>The Bitcoin developers</translation>
+        <source>The Patacoin developers</source>
+        <translation>The Patacoin developers</translation>
     </message>
 </context>
 <context>
@@ -121,12 +121,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの Bitcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your Patacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Patacoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Patacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -248,7 +248,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PATACOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Bitcoin はすべて失われます&lt;/b&gt;!</translation>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Patacoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -274,8 +274,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your patacoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
+        <source>Patacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your patacoins from being stolen by malware infecting your computer.</source>
+        <translation>Patacoin は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -320,7 +320,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>PatacoinGUI</name>
     <message>
         <location filename="../patacoingui.cpp" line="+250"/>
         <source>Sign &amp;message...</source>
@@ -363,8 +363,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Bitcoinに関する情報を見る</translation>
+        <source>Show information about Patacoin</source>
+        <translation>Patacoinに関する情報を見る</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -409,13 +409,13 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="-322"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin アドレスにコインを送る</translation>
+        <source>Send coins to a Patacoin address</source>
+        <translation>Patacoin アドレスにコインを送る</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Bitcoin の設定を変更する</translation>
+        <source>Modify configuration options for Patacoin</source>
+        <translation>Patacoin の設定を変更する</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -446,8 +446,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <location line="-180"/>
         <location line="+6"/>
         <location line="+513"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Patacoin</source>
+        <translation>Patacoin</translation>
     </message>
     <message>
         <location line="-519"/>
@@ -468,8 +468,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+28"/>
         <location line="+2"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>Bitcoin について (&amp;A)</translation>
+        <source>&amp;About Patacoin</source>
+        <translation>Patacoin について (&amp;A)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -489,13 +489,13 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの Bitcoin アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your Patacoin addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの Patacoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified Patacoin addresses</source>
+        <translation>指定された Patacoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -551,13 +551,13 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+106"/>
         <location line="+5"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin クライアント</translation>
+        <source>Patacoin client</source>
+        <translation>Patacoin クライアント</translation>
     </message>
     <message numerus="yes">
         <location line="+120"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n の Bitcoin ネットワークへのアクティブな接続</numerusform></translation>
+        <source>%n active connection(s) to Patacoin network</source>
+        <translation><numerusform>%n の Patacoin ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -668,8 +668,8 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
+        <source>URI can not be parsed! This can be caused by an invalid Patacoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Patacoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
 </translation>
     </message>
     <message>
@@ -684,8 +684,8 @@ Address: %4
     </message>
     <message>
         <location filename="../patacoin.cpp" line="+110"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Bitcoin は安全に継続することができず終了するでしょう。
+        <source>A fatal error occurred. Patacoin can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Patacoin は安全に継続することができず終了するでしょう。
 </translation>
     </message>
 </context>
@@ -751,8 +751,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; は無効な Bitcoin アドレスです。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Patacoin address.</source>
+        <translation>入力されたアドレス &quot;%1&quot; は無効な Patacoin アドレスです。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -798,8 +798,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+558"/>
         <location line="+13"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>Patacoin-Qt</source>
+        <translation>Patacoin-Qt</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -851,18 +851,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin-Qt.</source>
-        <translation>Bitcoin-Qt へようこそ。</translation>
+        <source>Welcome to Patacoin-Qt.</source>
+        <translation>Patacoin-Qt へようこそ。</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin-Qt will store its data.</source>
-        <translation>プログラムが初めて起動されるので Bitcoin-Qt がデータを保存する場所を選ぶことができます。</translation>
+        <source>As this is the first time the program is launched, you can choose where Patacoin-Qt will store its data.</source>
+        <translation>プログラムが初めて起動されるので Patacoin-Qt がデータを保存する場所を選ぶことができます。</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin-Qt will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin-Qt はブロック チェーンのコピーをダウンロードして保存します。少なくとも %1GB のデータがこのディレクトリに保存され、時間とともに増えていきます。ウォレットもこのディレクトリに保存されます。</translation>
+        <source>Patacoin-Qt will download and store a copy of the Patacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Patacoin-Qt はブロック チェーンのコピーをダウンロードして保存します。少なくとも %1GB のデータがこのディレクトリに保存され、時間とともに増えていきます。ウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -914,13 +914,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>システムにログインした時に自動的に Bitcoin を起動します。</translation>
+        <source>Automatically start Patacoin after logging in to the system.</source>
+        <translation>システムにログインした時に自動的に Patacoin を起動します。</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>システムにログインした時に Bitcoin を起動 (&amp;S)</translation>
+        <source>&amp;Start Patacoin on system login</source>
+        <translation>システムにログインした時に Patacoin を起動 (&amp;S)</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -939,8 +939,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Bitcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Patacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Patacoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -949,8 +949,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Bitcoin ネットワークに SOCKS プロキシで接続します (例えば Tor で接続している時)。</translation>
+        <source>Connect to the Patacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Patacoin ネットワークに SOCKS プロキシで接続します (例えば Tor で接続している時)。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1024,8 +1024,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>ここでユーザインターフェースの言語を設定できます。設定を反映するには Bitcoin を再起動します。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Patacoin.</source>
+        <translation>ここでユーザインターフェースの言語を設定できます。設定を反映するには Patacoin を再起動します。</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1039,8 +1039,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>最近の取引履歴で Bitcoin アドレスを表示するかしないか。</translation>
+        <source>Whether to show Patacoin addresses in the transaction list or not.</source>
+        <translation>最近の取引履歴で Patacoin アドレスを表示するかしないか。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1091,8 +1091,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>この設定を反映するには Bitcoin を再起動します。</translation>
+        <source>This setting will take effect after restarting Patacoin.</source>
+        <translation>この設定を反映するには Patacoin を再起動します。</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1110,8 +1110,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+202"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Bitcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Patacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Patacoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <location line="-131"/>
@@ -1179,8 +1179,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
+        <source>URI can not be parsed! This can be caused by an invalid Patacoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Patacoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
 </translation>
     </message>
     <message>
@@ -1233,8 +1233,8 @@ Address: %4
         <location filename="../patacoin.cpp" line="+114"/>
         <location line="+5"/>
         <location filename="../intro.cpp" line="-32"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Patacoin</source>
+        <translation>Patacoin</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -1363,8 +1363,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>有効な Bitcoin のコマンドライン オプションを見るために Bitcoin-Qt のヘルプメッセージを表示します。</translation>
+        <source>Show the Patacoin-Qt help message to get a list with possible Patacoin command-line options.</source>
+        <translation>有効な Patacoin のコマンドライン オプションを見るために Patacoin-Qt のヘルプメッセージを表示します。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1408,13 +1408,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - デバッグ ウインドウ</translation>
+        <source>Patacoin - Debug window</source>
+        <translation>Patacoin - デバッグ ウインドウ</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
+        <source>Patacoin Core</source>
+        <translation>Patacoin のコア</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1423,8 +1423,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータ ディレクトリから Bitcoin のデバッグ用ログファイルを開きます。ログファイルが大規模な場合には数秒かかることがあります。</translation>
+        <source>Open the Patacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータ ディレクトリから Patacoin のデバッグ用ログファイルを開きます。ログファイルが大規模な場合には数秒かかることがあります。</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1433,8 +1433,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bitcoin RPC コンソールへようこそ。</translation>
+        <source>Welcome to the Patacoin RPC console.</source>
+        <translation>Patacoin RPC コンソールへようこそ。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1806,8 +1806,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Patacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Patacoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1871,8 +1871,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>この Bitcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this Patacoin address</source>
+        <translation>この Patacoin アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1907,8 +1907,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified Patacoin address</source>
+        <translation>指定された Patacoin アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1923,8 +1923,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Patacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Patacoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1933,8 +1933,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Bitcoin 署名を入力</translation>
+        <source>Enter Patacoin signature</source>
+        <translation>Patacoin 署名を入力</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2007,8 +2007,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+23"/>
-        <source>The Bitcoin developers</source>
-        <translation>The Bitcoin developers</translation>
+        <source>The Patacoin developers</source>
+        <translation>The Patacoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2558,8 +2558,8 @@ Address: %4
     <name>patacoin-core</name>
     <message>
         <location filename="../patacoinstrings.cpp" line="+102"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin Bertsio</translation>
+        <source>Patacoin version</source>
+        <translation>Patacoin Bertsio</translation>
     </message>
     <message>
         <location line="+107"/>
@@ -2672,7 +2672,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Patacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, rpcpassword を設定ファイルで設定してください:
 %s
@@ -2683,7 +2683,7 @@ rpcpassword=%s
 ユーザー名とパスワードが同じであってはいけません。
 もしもファイルが存在しないなら、所有者だけが読み取れる権限で作成してください。
 また、問題が通知されるように alertnotify を設定することをお勧めします;
-例えば: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com</translation>
+例えば: alertnotify=echo %%s | mail -s &quot;Patacoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -2702,8 +2702,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Bitcoin は実行中です。</translation>
+        <source>Cannot obtain a lock on data directory %s. Patacoin is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Patacoin は実行中です。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2742,8 +2742,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>警告: あなたのコンピュータの日時が正しいことを確認してください! 時計が間違っていると Bitcoin は正常に動作しません。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Patacoin will not work properly.</source>
+        <translation>警告: あなたのコンピュータの日時が正しいことを確認してください! 時計が間違っていると Patacoin は正常に動作しません。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2772,7 +2772,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Bitcoin RPC client version</source>
+        <source>Patacoin RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2938,7 +2938,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+6"/>
-        <source>Send command to Bitcoin server</source>
+        <source>Send command to Patacoin server</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2953,7 +2953,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+2"/>
-        <source>Start Bitcoin server</source>
+        <source>Start Patacoin server</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3053,8 +3053,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki をご覧下さい)</translation>
+        <source>SSL options: (see the Patacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL オプション: (SSLのセットアップ手順は Patacoin Wiki をご覧下さい)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3233,13 +3233,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>wallet.dat 読み込みエラー: ウォレットは Bitcoin の最新バージョンを必要とします</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Patacoin</source>
+        <translation>wallet.dat 読み込みエラー: ウォレットは Patacoin の最新バージョンを必要とします</translation>
     </message>
     <message>
         <location line="+98"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために Bitcoin を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart Patacoin to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために Patacoin を再起動します</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -3298,8 +3298,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>このコンピュータの %s にバインドすることができません。おそらく Bitcoin は既に実行されています。</translation>
+        <source>Unable to bind to %s on this computer. Patacoin is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく Patacoin は既に実行されています。</translation>
     </message>
     <message>
         <location line="+69"/>
