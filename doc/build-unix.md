@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Bitcoin in Unix. 
+Some notes on how to build Patacoin in Unix. 
 
 To Build
 ---------------------
@@ -83,7 +83,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Bitcoin-Qt, make sure that the required packages for Qt development
+If you want to build Patacoin-Qt, make sure that the required packages for Qt development
 are installed. Qt 4 is currently necessary to build the GUI.
 
 To build with Qt 4 you need the following:

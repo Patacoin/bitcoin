@@ -106,14 +106,14 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 share/qt/clean_mac_info_plist.py
-	python2.7 contrib/macdeploy/macdeployqtplus Bitcoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus Patacoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: Bitcoin-Qt.dmg
+ Build output expected: Patacoin-Qt.dmg
 
 ###Next steps:
 
 * Code-sign Windows -setup.exe (in a Windows virtual machine) and
-  OSX Bitcoin-Qt.app (Note: only Gavin has the code-signing keys currently)
+  OSX Patacoin-Qt.app (Note: only Gavin has the code-signing keys currently)
 
 * upload builds to SourceForge
 
@@ -179,8 +179,8 @@ From a directory containing bitcoin source, gitian.sigs and gitian zips
 
   - Release sticky on bitcointalk: https://bitcointalk.org/index.php?board=1.0
 
-  - Bitcoin-development mailing list
+  - Patacoin-development mailing list
 
-  - Optionally reddit /r/Bitcoin, ...
+  - Optionally reddit /r/Patacoin, ...
 
 - Celebrate 
