@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin Core</source>
-        <translation>Sobre o Núcleo Bitcoin</translation>
+        <source>About patacoin Core</source>
+        <translation>Sobre o Núcleo patacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; versão</translation>
+        <source>&lt;b&gt;patacoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;patacoin Core&lt;/b&gt; versão</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>Os programadores Bitcoin</translation>
+        <source>The patacoin developers</source>
+        <translation>Os programadores patacoin</translation>
     </message>
 </context>
 <context>
@@ -121,13 +121,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Bitcoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
+        <source>These are your patacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços patacoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Bitcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+        <source>These are your patacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços patacoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -247,8 +247,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR patacoinS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS patacoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -274,8 +274,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Bitcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus bitcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>patacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your patacoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente patacoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus patacoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -320,9 +320,9 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>patacoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+260"/>
+        <location filename="../patacoingui.cpp" line="+260"/>
         <source>Sign &amp;message...</source>
         <translation>Assinar &amp;mensagem...</translation>
     </message>
@@ -363,8 +363,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Mostrar informação sobre Bitcoin</translation>
+        <source>Show information about patacoin</source>
+        <translation>Mostrar informação sobre patacoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -409,13 +409,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-358"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço bitcoin</translation>
+        <source>Send coins to a patacoin address</source>
+        <translation>Enviar moedas para um endereço patacoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Modificar opções de configuração para bitcoin</translation>
+        <source>Modify configuration options for patacoin</source>
+        <translation>Modificar opções de configuração para patacoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -444,8 +444,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+375"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>patacoin</source>
+        <translation>patacoin</translation>
     </message>
     <message>
         <location line="-563"/>
@@ -481,13 +481,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Bitcoin para provar que os controla</translation>
+        <source>Sign messages with your patacoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços patacoin para provar que os controla</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Bitcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified patacoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço patacoin especificado</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -518,19 +518,19 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-331"/>
         <location line="+10"/>
-        <source>Bitcoin Core</source>
-        <translation>Núcleo Bitcoin</translation>
+        <source>patacoin Core</source>
+        <translation>Núcleo patacoin</translation>
     </message>
     <message>
         <location line="+121"/>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and patacoin: URIs)</source>
         <translation>Solicitar pagamentos (gera códigos QR)</translation>
     </message>
     <message>
         <location line="+27"/>
         <location line="+2"/>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Sobre o Núcleo Bitcoin</translation>
+        <source>&amp;About patacoin Core</source>
+        <translation>&amp;Sobre o Núcleo patacoin</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -559,19 +559,19 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir bitcoin: link ou pedido de pagamento</translation>
+        <source>Open a patacoin: URI or payment request</source>
+        <translation>Abrir patacoin: link ou pedido de pagamento</translation>
     </message>
     <message>
         <location line="+126"/>
         <location line="+5"/>
-        <source>Bitcoin client</source>
-        <translation>Cliente Bitcoin</translation>
+        <source>patacoin client</source>
+        <translation>Cliente patacoin</translation>
     </message>
     <message numerus="yes">
         <location line="+133"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Bitcoin</numerusform><numerusform>%n ligações ativas à rede Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to patacoin network</source>
+        <translation><numerusform>%n ligação ativa à rede patacoin</numerusform><numerusform>%n ligações ativas à rede patacoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -687,9 +687,9 @@ Endereço: %4
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+116"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Bitcoin não pode continuar com segurança e irá fechar.</translation>
+        <location filename="../patacoin.cpp" line="+116"/>
+        <source>A fatal error occurred. patacoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O patacoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -1041,8 +1041,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço bitcoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid patacoin address.</source>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço patacoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1093,8 +1093,8 @@ Endereço: %4
     <message>
         <location line="+0"/>
         <location line="+13"/>
-        <source>Bitcoin Core</source>
-        <translation>Núcleo Bitcoin</translation>
+        <source>patacoin Core</source>
+        <translation>Núcleo patacoin</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -1141,18 +1141,18 @@ Endereço: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Bem-vindo ao Bitcoin Core.</translation>
+        <source>Welcome to patacoin Core.</source>
+        <translation>Bem-vindo ao patacoin Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Sendo isto a primeira vez que o programa é iniciado, você pode escolher onde Bitcoin Core vai guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where patacoin Core will store its data.</source>
+        <translation>Sendo isto a primeira vez que o programa é iniciado, você pode escolher onde patacoin Core vai guardar os seus dados.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core vai transferir e guardar uma cópia do Bitcoin &quot;block chain&quot; (cadeia de bloco). Pelo menos %1GB de dados será guardado neste directório, e vai crescer consoante o tempo.
+        <source>patacoin Core will download and store a copy of the patacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>patacoin Core vai transferir e guardar uma cópia do patacoin &quot;block chain&quot; (cadeia de bloco). Pelo menos %1GB de dados será guardado neste directório, e vai crescer consoante o tempo.
 A sua &quot;carteira&quot; também irá ser guardada neste directório.</translation>
     </message>
     <message>
@@ -1167,8 +1167,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location filename="../intro.cpp" line="+85"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>patacoin</source>
+        <translation>patacoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1243,13 +1243,13 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Começar o Bitcoin automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start patacoin after logging in to the system.</source>
+        <translation>Começar o patacoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Começar o Bitcoin ao iniciar o sistema</translation>
+        <source>&amp;Start patacoin on system login</source>
+        <translation>&amp;Começar o patacoin ao iniciar o sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1268,8 +1268,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente bitcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the patacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente patacoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1278,8 +1278,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ligar à rede Bitcoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
+        <source>Connect to the patacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ligar à rede patacoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1353,8 +1353,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting patacoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o patacoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1368,8 +1368,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços Bitcoin na lista de transações.</translation>
+        <source>Whether to show patacoin addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços patacoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1430,8 +1430,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Esta opção entrará em efeito após reiniciar o Bitcoin.</translation>
+        <source>This setting will take effect after restarting patacoin.</source>
+        <translation>Esta opção entrará em efeito após reiniciar o patacoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1449,8 +1449,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     <message>
         <location line="+50"/>
         <location line="+214"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Bitcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the patacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede patacoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -1518,8 +1518,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+1"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Bitcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid patacoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço patacoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+91"/>
@@ -1535,8 +1535,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="-207"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com bitcoin:</translation>
+        <source>Cannot start patacoin: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com patacoin:</translation>
     </message>
     <message>
         <location line="+195"/>
@@ -1574,10 +1574,10 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../bitcoin.cpp" line="+119"/>
+        <location filename="../patacoin.cpp" line="+119"/>
         <location line="+5"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>patacoin</source>
+        <translation>patacoin</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -1746,8 +1746,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="-79"/>
-        <source>Bitcoin Core</source>
-        <translation>Núcleo Bitcoin</translation>
+        <source>patacoin Core</source>
+        <translation>Núcleo patacoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1756,13 +1756,13 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the patacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>Show the Bitcoin-Core help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Mostrar o Bitcoin-core mensagem de &quot;ajuda&quot; para obter uma lista com  opções de linha-de-comandos para Bitcoin.</translation>
+        <source>Show the patacoin-Core help message to get a list with possible patacoin command-line options.</source>
+        <translation>Mostrar o patacoin-core mensagem de &quot;ajuda&quot; para obter uma lista com  opções de linha-de-comandos para patacoin.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1771,8 +1771,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC Bitcoin.</translation>
+        <source>Welcome to the patacoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC patacoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2138,8 +2138,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="-136"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduza um endereço Bitcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a patacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza um endereço patacoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2228,8 +2228,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+113"/>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Aviso: Endereço Bitcoin inválido</translation>
+        <source>Warning: Invalid patacoin address</source>
+        <translation>Aviso: Endereço patacoin inválido</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2352,8 +2352,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduza um endereço Bitcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a patacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza um endereço patacoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -2417,8 +2417,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Bitcoin</translation>
+        <source>Sign the message to prove you own this patacoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço patacoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2453,8 +2453,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Bitcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified patacoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço patacoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2469,8 +2469,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+29"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduza um endereço Bitcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a patacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza um endereço patacoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2479,8 +2479,8 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Introduza assinatura Bitcoin</translation>
+        <source>Enter patacoin signature</source>
+        <translation>Introduza assinatura patacoin</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -2553,13 +2553,13 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+26"/>
-        <source>Bitcoin Core</source>
-        <translation>Núcleo Bitcoin</translation>
+        <source>patacoin Core</source>
+        <translation>Núcleo patacoin</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Bitcoin Core developers</source>
-        <translation>Os programadores Bitcoin</translation>
+        <source>The patacoin Core developers</source>
+        <translation>Os programadores patacoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3124,9 +3124,9 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>patacoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+217"/>
+        <location filename="../patacoinstrings.cpp" line="+217"/>
         <source>Usage:</source>
         <translation>Utilização:</translation>
     </message>
@@ -3147,13 +3147,13 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
     </message>
     <message>
         <location line="+23"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: patacoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: patacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: bitcoind.pid)</translation>
+        <source>Specify pid file (default: patacoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: patacoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3230,24 +3230,24 @@ A sua &quot;carteira&quot; também irá ser guardada neste directório.</transla
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=patacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;patacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=bitcoinrpc
+rpcuser=patacoinrpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta patacoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3267,8 +3267,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o Bitcoin já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. patacoin is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o patacoin já está a ser executado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3307,13 +3307,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Bitcoin não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong patacoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o patacoin não irá funcionar correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Aviso: A rede não parece estar completamente funcional! Parece que alguns bitcoiner&apos;s estão com dificuldades técnicas.</translation>
+        <translation>Aviso: A rede não parece estar completamente funcional! Parece que alguns patacoiner&apos;s estão com dificuldades técnicas.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3342,13 +3342,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Bitcoin Core Daemon</source>
-        <translation>Bitcoin Core Daemon</translation>
+        <source>patacoin Core Daemon</source>
+        <translation>patacoin Core Daemon</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Bitcoin RPC client version</source>
-        <translation>Versão do cliente Bitcoin RPC</translation>
+        <source>patacoin RPC client version</source>
+        <translation>Versão do cliente patacoin RPC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3542,8 +3542,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to Bitcoin server</source>
-        <translation>Enviar comando para servidor Bitcoin</translation>
+        <source>Send command to patacoin server</source>
+        <translation>Enviar comando para servidor patacoin</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3562,13 +3562,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Start Bitcoin server</source>
-        <translation>Começar servidor Bitcoin</translation>
+        <source>Start patacoin server</source>
+        <translation>Começar servidor patacoin</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Usage (deprecated, use bitcoin-cli):</source>
-        <translation>Utilização (deprecado, use bitcoin-cli)</translation>
+        <source>Usage (deprecated, use patacoin-cli):</source>
+        <translation>Utilização (deprecado, use patacoin-cli)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3667,8 +3667,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+9"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Wiki Bitcoin para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the patacoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Wiki patacoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -3832,13 +3832,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of patacoin</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do patacoin</translation>
     </message>
     <message>
         <location line="+98"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o Bitcoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart patacoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o patacoin para completar</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -3897,8 +3897,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@foo
     </message>
     <message>
         <location line="-32"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o Bitcoin já está a funcionar.</translation>
+        <source>Unable to bind to %s on this computer. patacoin is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o patacoin já está a funcionar.</translation>
     </message>
     <message>
         <location line="+94"/>

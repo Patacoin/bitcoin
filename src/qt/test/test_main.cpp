@@ -1,6 +1,6 @@
-#include "bitcoin-config.h"
+#include "patacoin-config.h"
 #if defined(HAVE_CONFIG_H)
-#include "bitcoin-config.h"
+#include "patacoin-config.h"
 #endif
 
 #ifdef ENABLE_WALLET

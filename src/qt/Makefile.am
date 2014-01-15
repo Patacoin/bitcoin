@@ -5,74 +5,74 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = bitcoin-qt
-noinst_LIBRARIES = libbitcoinqt.a
+bin_PROGRAMS = patacoin-qt
+noinst_LIBRARIES = libpatacoinqt.a
 SUBDIRS = $(BUILD_TEST_QT)
 DIST_SUBDIRS = test
 
-# bitcoin qt core #
+# patacoin qt core #
 QT_TS = \
-  locale/bitcoin_ach.ts \
-  locale/bitcoin_af_ZA.ts \
-  locale/bitcoin_ar.ts \
-  locale/bitcoin_be_BY.ts \
-  locale/bitcoin_bg.ts \
-  locale/bitcoin_bs.ts \
-  locale/bitcoin_ca_ES.ts \
-  locale/bitcoin_ca.ts \
-  locale/bitcoin_cs.ts \
-  locale/bitcoin_cy.ts \
-  locale/bitcoin_da.ts \
-  locale/bitcoin_de_AT.ts \
-  locale/bitcoin_de.ts \
-  locale/bitcoin_el_GR.ts \
-  locale/bitcoin_en.ts \
-  locale/bitcoin_eo.ts \
-  locale/bitcoin_es_CL.ts \
-  locale/bitcoin_es_MX.ts \
-  locale/bitcoin_es.ts \
-  locale/bitcoin_et.ts \
-  locale/bitcoin_eu_ES.ts \
-  locale/bitcoin_fa_IR.ts \
-  locale/bitcoin_fa.ts \
-  locale/bitcoin_fi.ts \
-  locale/bitcoin_fr_CA.ts \
-  locale/bitcoin_fr.ts \
-  locale/bitcoin_gl.ts \
-  locale/bitcoin_gu_IN.ts \
-  locale/bitcoin_he.ts \
-  locale/bitcoin_hi_IN.ts \
-  locale/bitcoin_hr.ts \
-  locale/bitcoin_hu.ts \
-  locale/bitcoin_id_ID.ts \
-  locale/bitcoin_it.ts \
-  locale/bitcoin_ja.ts \
-  locale/bitcoin_kk_KZ.ts \
-  locale/bitcoin_ko_KR.ts \
-  locale/bitcoin_la.ts \
-  locale/bitcoin_lt.ts \
-  locale/bitcoin_lv_LV.ts \
-  locale/bitcoin_ms_MY.ts \
-  locale/bitcoin_nb.ts \
-  locale/bitcoin_nl.ts \
-  locale/bitcoin_pam.ts \
-  locale/bitcoin_pl.ts \
-  locale/bitcoin_pt_BR.ts \
-  locale/bitcoin_pt_PT.ts \
-  locale/bitcoin_ro_RO.ts \
-  locale/bitcoin_ru.ts \
-  locale/bitcoin_sk.ts \
-  locale/bitcoin_sl_SI.ts \
-  locale/bitcoin_sq.ts \
-  locale/bitcoin_sr.ts \
-  locale/bitcoin_sv.ts \
-  locale/bitcoin_th_TH.ts \
-  locale/bitcoin_tr.ts \
-  locale/bitcoin_uk.ts \
-  locale/bitcoin_vi.ts \
-  locale/bitcoin_vi_VN.ts \
-  locale/bitcoin_zh_CN.ts \
-  locale/bitcoin_zh_TW.ts
+  locale/patacoin_ach.ts \
+  locale/patacoin_af_ZA.ts \
+  locale/patacoin_ar.ts \
+  locale/patacoin_be_BY.ts \
+  locale/patacoin_bg.ts \
+  locale/patacoin_bs.ts \
+  locale/patacoin_ca_ES.ts \
+  locale/patacoin_ca.ts \
+  locale/patacoin_cs.ts \
+  locale/patacoin_cy.ts \
+  locale/patacoin_da.ts \
+  locale/patacoin_de_AT.ts \
+  locale/patacoin_de.ts \
+  locale/patacoin_el_GR.ts \
+  locale/patacoin_en.ts \
+  locale/patacoin_eo.ts \
+  locale/patacoin_es_CL.ts \
+  locale/patacoin_es_MX.ts \
+  locale/patacoin_es.ts \
+  locale/patacoin_et.ts \
+  locale/patacoin_eu_ES.ts \
+  locale/patacoin_fa_IR.ts \
+  locale/patacoin_fa.ts \
+  locale/patacoin_fi.ts \
+  locale/patacoin_fr_CA.ts \
+  locale/patacoin_fr.ts \
+  locale/patacoin_gl.ts \
+  locale/patacoin_gu_IN.ts \
+  locale/patacoin_he.ts \
+  locale/patacoin_hi_IN.ts \
+  locale/patacoin_hr.ts \
+  locale/patacoin_hu.ts \
+  locale/patacoin_id_ID.ts \
+  locale/patacoin_it.ts \
+  locale/patacoin_ja.ts \
+  locale/patacoin_kk_KZ.ts \
+  locale/patacoin_ko_KR.ts \
+  locale/patacoin_la.ts \
+  locale/patacoin_lt.ts \
+  locale/patacoin_lv_LV.ts \
+  locale/patacoin_ms_MY.ts \
+  locale/patacoin_nb.ts \
+  locale/patacoin_nl.ts \
+  locale/patacoin_pam.ts \
+  locale/patacoin_pl.ts \
+  locale/patacoin_pt_BR.ts \
+  locale/patacoin_pt_PT.ts \
+  locale/patacoin_ro_RO.ts \
+  locale/patacoin_ru.ts \
+  locale/patacoin_sk.ts \
+  locale/patacoin_sl_SI.ts \
+  locale/patacoin_sq.ts \
+  locale/patacoin_sr.ts \
+  locale/patacoin_sv.ts \
+  locale/patacoin_th_TH.ts \
+  locale/patacoin_tr.ts \
+  locale/patacoin_uk.ts \
+  locale/patacoin_vi.ts \
+  locale/patacoin_vi_VN.ts \
+  locale/patacoin_zh_CN.ts \
+  locale/patacoin_zh_TW.ts
 
 QT_FORMS_UI = \
   forms/aboutdialog.ui \
@@ -97,10 +97,10 @@ QT_MOC_CPP = \
   moc_addressbookpage.cpp \
   moc_addresstablemodel.cpp \
   moc_askpassphrasedialog.cpp \
-  moc_bitcoinaddressvalidator.cpp \
-  moc_bitcoinamountfield.cpp \
-  moc_bitcoingui.cpp \
-  moc_bitcoinunits.cpp \
+  moc_patacoinaddressvalidator.cpp \
+  moc_patacoinamountfield.cpp \
+  moc_patacoingui.cpp \
+  moc_patacoinunits.cpp \
   moc_clientmodel.cpp \
   moc_coincontroldialog.cpp \
   moc_coincontroltreewidget.cpp \
@@ -137,32 +137,32 @@ QT_MOC_CPP = \
   moc_walletmodel.cpp \
   moc_walletview.cpp
 
-BITCOIN_MM = \
+patacoin_MM = \
   macdockiconhandler.mm \
   macnotificationhandler.mm
 
 QT_MOC = \
-  bitcoin.moc \
+  patacoin.moc \
   intro.moc \
   overviewpage.moc \
   rpcconsole.moc
 
-QT_QRC_CPP = qrc_bitcoin.cpp
-QT_QRC = bitcoin.qrc
+QT_QRC_CPP = qrc_patacoin.cpp
+QT_QRC = patacoin.qrc
 
 PROTOBUF_CC = paymentrequest.pb.cc
 PROTOBUF_H = paymentrequest.pb.h
 PROTOBUF_PROTO = paymentrequest.proto
 
-BITCOIN_QT_H = \
+patacoin_QT_H = \
   aboutdialog.h \
   addressbookpage.h \
   addresstablemodel.h \
   askpassphrasedialog.h \
-  bitcoinaddressvalidator.h \
-  bitcoinamountfield.h \
-  bitcoingui.h \
-  bitcoinunits.h \
+  patacoinaddressvalidator.h \
+  patacoinamountfield.h \
+  patacoingui.h \
+  patacoinunits.h \
   clientmodel.h \
   coincontroldialog.h \
   coincontroltreewidget.h \
@@ -206,10 +206,10 @@ BITCOIN_QT_H = \
 RES_ICONS = \
   res/icons/add.png \
   res/icons/address-book.png \
-  res/icons/bitcoin.ico \
-  res/icons/bitcoin.png \
-  res/icons/bitcoin_testnet.ico \
-  res/icons/bitcoin_testnet.png \
+  res/icons/patacoin.ico \
+  res/icons/patacoin.png \
+  res/icons/patacoin_testnet.ico \
+  res/icons/patacoin_testnet.png \
   res/icons/clock1.png \
   res/icons/clock2.png \
   res/icons/clock3.png \
@@ -247,13 +247,13 @@ RES_ICONS = \
   res/icons/tx_output.png \
   res/icons/tx_mined.png
 
-BITCOIN_QT_CPP = \
+patacoin_QT_CPP = \
   aboutdialog.cpp \
-  bitcoin.cpp \
-  bitcoinaddressvalidator.cpp \
-  bitcoinamountfield.cpp \
-  bitcoingui.cpp \
-  bitcoinunits.cpp \
+  patacoin.cpp \
+  patacoinaddressvalidator.cpp \
+  patacoinamountfield.cpp \
+  patacoingui.cpp \
+  patacoinunits.cpp \
   clientmodel.cpp \
   csvmodelwriter.cpp \
   guiutil.cpp \
@@ -270,7 +270,7 @@ BITCOIN_QT_CPP = \
   trafficgraphwidget.cpp
 
 if ENABLE_WALLET
-BITCOIN_QT_CPP += \
+patacoin_QT_CPP += \
   addressbookpage.cpp \
   addresstablemodel.cpp \
   askpassphrasedialog.cpp \
@@ -305,17 +305,17 @@ RES_IMAGES = \
 
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-BITCOIN_RC = res/bitcoin-qt-res.rc
+patacoin_RC = res/patacoin-qt-res.rc
 
-libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+libpatacoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
-libbitcoinqt_a_SOURCES = $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(QT_FORMS_UI) \
+libpatacoinqt_a_SOURCES = $(patacoin_QT_CPP) $(patacoin_QT_H) $(QT_FORMS_UI) \
   $(QT_QRC) $(QT_TS) $(PROTOBUF_PROTO) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES)
 
-nodist_libbitcoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
+nodist_libpatacoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
   $(PROTOBUF_H) $(QT_QRC_CPP)
 
-BUILT_SOURCES = $(nodist_libbitcoinqt_a_SOURCES)
+BUILT_SOURCES = $(nodist_libpatacoinqt_a_SOURCES)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
@@ -323,22 +323,22 @@ $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
 if TARGET_DARWIN
-  libbitcoinqt_a_SOURCES += $(BITCOIN_MM)
+  libpatacoinqt_a_SOURCES += $(patacoin_MM)
 endif
 if TARGET_WINDOWS
-  libbitcoinqt_a_SOURCES += $(BITCOIN_RC)
+  libpatacoinqt_a_SOURCES += $(patacoin_RC)
 endif
 #
 
-# bitcoin-qt binary #
-bitcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+# patacoin-qt binary #
+patacoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-bitcoin_qt_SOURCES = bitcoin.cpp
-bitcoin_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
+patacoin_qt_SOURCES = patacoin.cpp
+patacoin_qt_LDADD = libpatacoinqt.a $(LIBpatacoin_SERVER)
 if ENABLE_WALLET
-bitcoin_qt_LDADD += $(LIBBITCOIN_WALLET)
+patacoin_qt_LDADD += $(LIBpatacoin_WALLET)
 endif
-bitcoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+patacoin_qt_LDADD += $(LIBpatacoin_CLI) $(LIBpatacoin_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
 
 # forms/foo.h -> forms/ui_foo.h
@@ -350,15 +350,15 @@ QT_QM=$(QT_TS:.ts=.qm)
 .PHONY: FORCE
 .SECONDARY: $(QT_QM)
 
-bitcoinstrings.cpp: FORCE
-	$(MAKE) -C $(top_srcdir)/src qt/bitcoinstrings.cpp
+patacoinstrings.cpp: FORCE
+	$(MAKE) -C $(top_srcdir)/src qt/patacoinstrings.cpp
 
-translate: bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: patacoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(patacoin_QT_CPP) $(patacoin_QT_H) $(patacoin_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/bitcoin_en.ts
+	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/patacoin_en.ts
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(PROTOBUF_H)
-	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin -o $(abs_builddir)/$@ $< || \
+	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name patacoin -o $(abs_builddir)/$@ $< || \
 	  echo error: could not build $@
 	$(SED) -i.bak -e '/^\*\*.*Created:/d' $@ && rm $@.bak
 	$(SED) -i.bak -e '/^\*\*.*by:/d' $@ && rm $@.bak

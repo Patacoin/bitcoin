@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOINAMOUNTFIELD_H
-#define BITCOINAMOUNTFIELD_H
+#ifndef PATACOINAMOUNTFIELD_H
+#define PATACOINAMOUNTFIELD_H
 
 #include <QWidget>
 
@@ -12,7 +12,7 @@ class QDoubleSpinBox;
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering bitcoin amounts.
+/** Widget for entering patacoin amounts.
   */
 class BitcoinAmountField: public QWidget
 {
@@ -65,4 +65,4 @@ private slots:
 
 };
 
-#endif // BITCOINAMOUNTFIELD_H
+#endif // PATACOINAMOUNTFIELD_H

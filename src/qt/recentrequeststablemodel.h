@@ -19,7 +19,7 @@ struct RecentRequestEntry
     SendCoinsRecipient recipient;
 };
 
-/** Model for list of recently generated payment requests / bitcoin URIs.
+/** Model for list of recently generated payment requests / patacoin URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel: public QAbstractTableModel

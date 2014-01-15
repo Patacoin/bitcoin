@@ -4,20 +4,20 @@ AM_CPPFLAGS += -I$(top_srcdir)/src/leveldb/helpers/memenv \
   -I$(builddir)
 
 noinst_LIBRARIES = \
-  libbitcoin_server.a \
-  libbitcoin_common.a \
-  libbitcoin_cli.a
+  libpatacoin_server.a \
+  libpatacoin_common.a \
+  libpatacoin_cli.a
 if ENABLE_WALLET
-noinst_LIBRARIES += libbitcoin_wallet.a
+noinst_LIBRARIES += libpatacoin_wallet.a
 endif
 
-bin_PROGRAMS = bitcoind bitcoin-cli
+bin_PROGRAMS = patacoind patacoin-cli
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
 DIST_SUBDIRS = . qt test
 .PHONY: FORCE
-# bitcoin core #
-BITCOIN_CORE_H = \
+# patacoin core #
+PATACOIN_CORE_H = \
   addrman.h \
   alert.h \
   allocators.h \
@@ -79,7 +79,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 version.o: obj/build.h
 
-libbitcoin_server_a_SOURCES = \
+libpatacoin_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   rpcserver.cpp \
@@ -102,18 +102,18 @@ libbitcoin_server_a_SOURCES = \
   txdb.cpp \
   txmempool.cpp \
   $(JSON_H) \
-  $(BITCOIN_CORE_H)
+  $(PATACOIN_CORE_H)
 
-libbitcoin_wallet_a_SOURCES = \
+libpatacoin_wallet_a_SOURCES = \
   db.cpp \
   crypter.cpp \
   rpcdump.cpp \
   rpcwallet.cpp \
   wallet.cpp \
   walletdb.cpp \
-  $(BITCOIN_CORE_H)
+  $(PATACOIN_CORE_H)
 
-libbitcoin_common_a_SOURCES = \
+libpatacoin_common_a_SOURCES = \
   allocators.cpp \
   chainparams.cpp \
   core.cpp \
@@ -126,45 +126,45 @@ libbitcoin_common_a_SOURCES = \
   sync.cpp \
   util.cpp \
   version.cpp \
-  $(BITCOIN_CORE_H)
+  $(PATACOIN_CORE_H)
 
-libbitcoin_cli_a_SOURCES = \
+libpatacoin_cli_a_SOURCES = \
   rpcclient.cpp \
-  $(BITCOIN_CORE_H)
+  $(PATACOIN_CORE_H)
 
-nodist_libbitcoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
+nodist_libpatacoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# bitcoind binary #
-bitcoind_LDADD = \
-  libbitcoin_server.a \
-  libbitcoin_cli.a \
-  libbitcoin_common.a \
+# patacoind binary #
+patacoind_LDADD = \
+  libpatacoin_server.a \
+  libpatacoin_cli.a \
+  libpatacoin_common.a \
   leveldb/libleveldb.a \
   leveldb/libmemenv.a
 if ENABLE_WALLET
-bitcoind_LDADD += libbitcoin_wallet.a
+patacoind_LDADD += libpatacoin_wallet.a
 endif
-bitcoind_SOURCES = bitcoind.cpp
+patacoind_SOURCES = patacoind.cpp
 #
 
 if TARGET_WINDOWS
-bitcoind_SOURCES += bitcoind-res.rc
+patacoind_SOURCES += patacoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-bitcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+patacoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
-# bitcoin-cli binary #
-bitcoin_cli_LDADD = \
-  libbitcoin_cli.a \
-  libbitcoin_common.a \
+# patacoin-cli binary #
+patacoin_cli_LDADD = \
+  libpatacoin_cli.a \
+  libpatacoin_common.a \
   $(BOOST_LIBS)
-bitcoin_cli_SOURCES = bitcoin-cli.cpp
+patacoin_cli_SOURCES = patacoin-cli.cpp
 #
 
 if TARGET_WINDOWS
-bitcoin_cli_SOURCES += bitcoin-cli-res.rc
+patacoin_cli_SOURCES += patacoin-cli-res.rc
 endif
 
 leveldb/libleveldb.a: leveldb/libmemenv.a
@@ -174,7 +174,7 @@ leveldb/%.a:
 	  CC="$(CC)" PLATFORM=$(TARGET_OS) AR="$(AR)" $(LEVELDB_TARGET_FLAGS) \
 	  OPT="$(CXXFLAGS) $(CPPFLAGS)"
 
-qt/bitcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_cli_a_SOURCES)
+qt/patacoinstrings.cpp: $(libpatacoin_server_a_SOURCES) $(libpatacoin_common_a_SOURCES) $(libpatacoin_cli_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	@cd $(top_srcdir); XGETTEXT=$(XGETTEXT) share/qt/extract_strings_qt.py
 
